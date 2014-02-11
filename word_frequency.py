@@ -18,7 +18,15 @@ def word_frequency(body):
 
 #parses out the date given a JSON object from the database
 def dateParser(JSONobject):
-    indexOf200 = JSONobject['headers']['Date'].index('200')
+    try:
+        indexOf200 = JSONobject['headers']['Date'].index('200')
+    except ValueError:
+        try:
+            indexOf200 = JSONobject['headers']['Date'].index('199')
+        except ValueError:
+            return None
+
+
     onlyDate = JSONobject['headers']['Date'][:indexOf200+4]
     return onlyDate
 

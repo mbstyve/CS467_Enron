@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2a08e4f-698b-4f18-be31-fadc3df22584" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JSON dump/Tue, 14 Nov 2000.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JSON dump/Tue, 14 Nov 2000.txt" afterPath="$PROJECT_DIR$/JSON dump/Tue, 14 Nov 2000.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/json_encoder.py" afterPath="$PROJECT_DIR$/json_encoder.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CS467 Enron Email.iws" />
@@ -15,7 +16,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/CS467 Enron Email$json_encoder.coverage" NAME="json_encoder Coverage Results" MODIFIED="1392078667961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CS467 Enron Email$json_encoder.coverage" NAME="json_encoder Coverage Results" MODIFIED="1392078789879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CS467 Enron Email$CS467_parser.coverage" NAME="CS467 parser Coverage Results" MODIFIED="1392078649864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -41,10 +42,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="json_encoder.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="json_encoder.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/json_encoder.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="15" selection-start="302" selection-end="302" vertical-scroll-proportion="0.53263706" vertical-offset="0" max-vertical-offset="383">
+            <state line="10" column="31" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tue, 14 Nov 2000.txt" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JSON dump/Tue, 14 Nov 2000.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="383">
               <folding />
             </state>
           </provider>
@@ -412,7 +422,11 @@
       <created>1392078685763</created>
       <updated>1392078685763</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="adding sample json dump&#10;">
+      <created>1392078729781</created>
+      <updated>1392078729781</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -451,7 +465,8 @@
     <MESSAGE value="adding in parser and json encoder" />
     <MESSAGE value="working on json encoder/dump" />
     <MESSAGE value="got JSON dumps working" />
-    <option name="LAST_COMMIT_MESSAGE" value="got JSON dumps working" />
+    <MESSAGE value="adding sample json dump&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding sample json dump&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -460,13 +475,6 @@
     <entry file="file://C:/Python27/Lib/site-packages/pymongo/collection.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1488" column="0" selection-start="65965" selection-end="65965" vertical-scroll-proportion="0.0" vertical-offset="24879" max-vertical-offset="25262">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/word_frequency.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="58" selection-start="519" selection-end="519" vertical-scroll-proportion="0.0" vertical-offset="8" max-vertical-offset="391">
           <folding />
         </state>
       </provider>
@@ -480,9 +488,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/word_frequency.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="58" selection-start="519" selection-end="519" vertical-scroll-proportion="0.0" vertical-offset="8" max-vertical-offset="391">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/json_encoder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="15" selection-start="302" selection-end="302" vertical-scroll-proportion="0.53263706" vertical-offset="0" max-vertical-offset="383">
+        <state line="10" column="31" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSON dump/Tue, 14 Nov 2000.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="383">
           <folding />
         </state>
       </provider>

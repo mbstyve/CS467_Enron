@@ -8,6 +8,6 @@ def dumpJSON(date, dataJSON):
     print test
     print dump['total']['scrimmage']
     with open('JSON dump/Tue, 14 Nov 2000.txt', 'w') as outfile:
-        json.dumps(dump)
+        json.dump(dump, outfile)
 
 dumpJSON('','')

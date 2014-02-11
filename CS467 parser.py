@@ -12,9 +12,9 @@ collections=db.messages  #accesses the enron "messages"
 posts = collections.find_one()  #finds the first message
 normalized_body=unicodedata.normalize('NFKD', posts['body']).encode('ascii','ignore')  #converts from unicode to string
 word_frequency(normalized_body)  #pass in string to word_frequency to count
-posts2 = collections.find()  #should get ALL emails in the database
-print posts2.count()
-print posts2[4000]
-print posts2[1]['headers']['Date']
-date = dateParser(posts2[1])
-dumpJSON(date, posts2[1])
+#posts2 = collections.find()  #should get ALL emails in the database
+posts2=posts
+#print posts2.count()
+print posts2[0]['headers']['Date']
+date = dateParser(posts2[0])
+dumpJSON(date, posts2[0])

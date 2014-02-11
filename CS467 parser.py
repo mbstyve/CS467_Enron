@@ -4,6 +4,7 @@ from pymongo import MongoClient
 from word_frequency import word_frequency
 from word_frequency import dateParser
 import unicodedata
+from json_encoder import dumpJSON
 
 client = MongoClient('ec2-54-84-86-116.compute-1.amazonaws.com', 27017)
 db = client['enron']
@@ -16,4 +17,4 @@ print posts2.count()
 print posts2[4000]
 print posts2[1]['headers']['Date']
 date = dateParser(posts2[1])
-print date
+dumpJSON(date, posts2[1])

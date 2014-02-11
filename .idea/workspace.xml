@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2a08e4f-698b-4f18-be31-fadc3df22584" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CS467 parser.py" afterPath="$PROJECT_DIR$/CS467 parser.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JSON dump/Tue, 14 Nov 2000.txt" afterPath="$PROJECT_DIR$/JSON dump/Tue, 14 Nov 2000.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/json_encoder.py" afterPath="$PROJECT_DIR$/json_encoder.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -16,8 +17,8 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/CS467 Enron Email$json_encoder.coverage" NAME="json_encoder Coverage Results" MODIFIED="1392078789879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/CS467 Enron Email$CS467_parser.coverage" NAME="CS467 parser Coverage Results" MODIFIED="1392078649864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CS467 Enron Email$CS467_parser.coverage" NAME="CS467 parser Coverage Results" MODIFIED="1392079481872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CS467 Enron Email$json_encoder.coverage" NAME="json_encoder Coverage Results" MODIFIED="1392079448568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -34,7 +35,7 @@
       <file leaf-file-name="CS467 parser.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CS467 parser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="18" selection-start="665" selection-end="665" vertical-scroll-proportion="0.0" vertical-offset="8" max-vertical-offset="408">
+            <state line="12" column="27" selection-start="423" selection-end="423" vertical-scroll-proportion="0.0" vertical-offset="8" max-vertical-offset="425">
               <folding>
                 <element signature="e#24#55#0" expanded="true" />
               </folding>
@@ -42,19 +43,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="json_encoder.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="json_encoder.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/json_encoder.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="31" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+            <state line="6" column="17" selection-start="115" selection-end="115" vertical-scroll-proportion="0.26631853" vertical-offset="0" max-vertical-offset="383">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Tue, 14 Nov 2000.txt" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Tue, 14 Nov 2000.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JSON dump/Tue, 14 Nov 2000.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="383">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
               <folding />
             </state>
           </provider>
@@ -96,8 +97,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/CS467 parser.py" />
         <option value="$PROJECT_DIR$/word_frequency.py" />
+        <option value="$PROJECT_DIR$/CS467 parser.py" />
         <option value="$PROJECT_DIR$/json_encoder.py" />
       </list>
     </option>
@@ -181,7 +182,7 @@
       <recent name="C:\Users\Michael\PycharmProjects\CS467 Enron Email" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.json_encoder">
+  <component name="RunManager" selected="Python.CS467 parser">
     <configuration default="false" name="CS467 parser" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -376,8 +377,8 @@
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.json_encoder" />
-        <item index="1" class="java.lang.String" itemvalue="Python.CS467 parser" />
+        <item index="0" class="java.lang.String" itemvalue="Python.CS467 parser" />
+        <item index="1" class="java.lang.String" itemvalue="Python.json_encoder" />
       </list>
     </recent_temporary>
   </component>
@@ -426,7 +427,11 @@
       <created>1392078729781</created>
       <updated>1392078729781</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="adding sample json dump&#10;">
+      <created>1392078803092</created>
+      <updated>1392078803092</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -434,7 +439,7 @@
     <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295082" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -479,15 +484,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CS467 parser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="18" selection-start="665" selection-end="665" vertical-scroll-proportion="0.0" vertical-offset="8" max-vertical-offset="408">
-          <folding>
-            <element signature="e#24#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/word_frequency.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="58" selection-start="519" selection-end="519" vertical-scroll-proportion="0.0" vertical-offset="8" max-vertical-offset="391">
@@ -495,16 +491,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/json_encoder.py">
+    <entry file="file://$PROJECT_DIR$/CS467 parser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="31" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-          <folding />
+        <state line="12" column="27" selection-start="423" selection-end="423" vertical-scroll-proportion="0.0" vertical-offset="8" max-vertical-offset="425">
+          <folding>
+            <element signature="e#24#55#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/JSON dump/Tue, 14 Nov 2000.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="383">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json_encoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="17" selection-start="115" selection-end="115" vertical-scroll-proportion="0.26631853" vertical-offset="0" max-vertical-offset="383">
           <folding />
         </state>
       </provider>

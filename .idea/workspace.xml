@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e2a08e4f-698b-4f18-be31-fadc3df22584" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/json_encoder.py" afterPath="$PROJECT_DIR$/json_encoder.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/word_frequency.py" afterPath="$PROJECT_DIR$/word_frequency.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CS467 Enron Email.iws" />
@@ -16,8 +15,8 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/CS467 Enron Email$json_encoder.coverage" NAME="json_encoder Coverage Results" MODIFIED="1392077974344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/CS467 Enron Email$CS467_parser.coverage" NAME="CS467 parser Coverage Results" MODIFIED="1392076911480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CS467 Enron Email$json_encoder.coverage" NAME="json_encoder Coverage Results" MODIFIED="1392078667961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CS467 Enron Email$CS467_parser.coverage" NAME="CS467 parser Coverage Results" MODIFIED="1392078649864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -34,7 +33,7 @@
       <file leaf-file-name="CS467 parser.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CS467 parser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="22" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0" vertical-offset="8" max-vertical-offset="408">
+            <state line="15" column="18" selection-start="665" selection-end="665" vertical-scroll-proportion="0.0" vertical-offset="8" max-vertical-offset="408">
               <folding>
                 <element signature="e#24#55#0" expanded="true" />
               </folding>
@@ -45,7 +44,7 @@
       <file leaf-file-name="json_encoder.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/json_encoder.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="30" selection-start="147" selection-end="147" vertical-scroll-proportion="0.31070495" vertical-offset="0" max-vertical-offset="383">
+            <state line="12" column="14" selection-start="301" selection-end="301" vertical-scroll-proportion="0.53263706" vertical-offset="0" max-vertical-offset="383">
               <folding />
             </state>
           </provider>
@@ -141,6 +140,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="CS467 Enron Email" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CS467 Enron Email" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CS467 Enron Email" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JSON dump" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -391,7 +404,11 @@
       <created>1392077224588</created>
       <updated>1392077224588</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="working on json encoder/dump">
+      <created>1392078017968</created>
+      <updated>1392078017968</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -404,7 +421,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.6704918" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.6704918" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -428,7 +445,8 @@
     </option>
     <MESSAGE value="cleaned up, added comments" />
     <MESSAGE value="adding in parser and json encoder" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding in parser and json encoder" />
+    <MESSAGE value="working on json encoder/dump" />
+    <option name="LAST_COMMIT_MESSAGE" value="working on json encoder/dump" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -450,7 +468,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CS467 parser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="22" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0" vertical-offset="8" max-vertical-offset="408">
+        <state line="15" column="18" selection-start="665" selection-end="665" vertical-scroll-proportion="0.0" vertical-offset="8" max-vertical-offset="408">
           <folding>
             <element signature="e#24#55#0" expanded="true" />
           </folding>
@@ -459,7 +477,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/json_encoder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="30" selection-start="147" selection-end="147" vertical-scroll-proportion="0.31070495" vertical-offset="0" max-vertical-offset="383">
+        <state line="12" column="14" selection-start="301" selection-end="301" vertical-scroll-proportion="0.53263706" vertical-offset="0" max-vertical-offset="383">
           <folding />
         </state>
       </provider>

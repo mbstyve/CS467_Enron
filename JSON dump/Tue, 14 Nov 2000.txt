@@ -1,1 +1,1 @@
-{"total": {"scrimmage": 2, "other_test": 3}, "michael.simmons@enron.com": {"scrimmage": 2, "other_test": 3}}
+{"Tue, 14 Nov 2000": {"scrimmage": 2, "other_test": 3}}

@@ -11,7 +11,7 @@ def word_frequency(body):
     for y in c.most_common():  ##sorts it by most common
         print y
 
-
+#parses out the date given a JSON object from the database
 def dateParser(JSONobject):
     indexOf200 = JSONobject['headers']['Date'].index('200')
     onlyDate = JSONobject['headers']['Date'][:indexOf200+4]
